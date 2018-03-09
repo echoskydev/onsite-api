@@ -13,15 +13,8 @@ var today = dt.format('Y-m-d H:M:S');
 
 // MySQL
 const mysql = require('mysql');
-var db_config = {
-    host: "122.155.219.52",
-    user: "backoffice",
-    password: "g=up'.s,j",
-    database: "seedsoft_system",
-    insecureAuth: true,
-    connectTimeout: 1000000,
-    debug: false
-};
+var db_config = require('config.json');
+
 var con;
 function handleDisconnect() {
     con = mysql.createConnection(db_config);    // Recreate the connection, since

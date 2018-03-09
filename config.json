@@ -1,0 +1,9 @@
+{
+    "host": "122.155.219.52",
+    "user": "backoffice",
+    "password": "g=up'.s,j",
+    "database": "seedsoft_system",
+    "insecureAuth": true,
+    "connectTimeout": 1000000,
+    "debug": false
+}
