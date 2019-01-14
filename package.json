@@ -1,27 +1,35 @@
 {
-  "name": "api",
+  "name": "onsite-api",
   "version": "1.0.0",
+  "description": "Onsite API",
   "main": "index.js",
-  "dependencies": {
-    "body-parser": "^1.18.2",
-    "express": "^4.16.2",
-    "jsonwebtoken": "^8.1.0",
-    "lodash": "^4.17.4",
-    "mysql": "^2.15.0",
-    "node-datetime": "^2.0.3",
-    "nodemailer": "^4.4.1",
-    "nodemailer-smtp-transport": "^2.7.4",
-    "passport": "^0.3.2",
-    "passport-jwt": "^2.2.1",
-    "xoauth2": "^1.2.0"
-  },
-  "devDependencies": {},
   "scripts": {
-    "start": "node index",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/echoskydev/onsite-api.git"
+  },
+  "keywords": [
+    "onsite"
+  ],
+  "author": "Seedsoft Solution",
   "license": "ISC",
-  "description": ""
+  "bugs": {
+    "url": "https://github.com/echoskydev/onsite-api/issues"
+  },
+  "homepage": "https://github.com/echoskydev/onsite-api#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "jsonwebtoken": "^8.4.0",
+    "lodash": "^4.17.11",
+    "mysql": "^2.16.0",
+    "node-datetime": "^2.1.2",
+    "nodemailer": "^5.1.1",
+    "nodemailer-smtp-transport": "^2.7.4",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0",
+    "xoauth2": "^1.2.0"
+  }
 }
